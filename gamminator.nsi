@@ -6,8 +6,8 @@
 
 ;--------------------------------
 
-  Name "Gamminator 0.5.6.0"
-  OutFile "gamminator-0.5.6-setup.exe"
+  Name "Gamminator 0.5.7.0"
+  OutFile "gamminator-0.5.7-setup.exe"
 
   InstallDir "$PROGRAMFILES\Gamminator"
 
@@ -18,7 +18,7 @@ LicenseData "gpl.txt"
 
 
 VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "Gamminator"
-VIProductVersion "0.5.6.0"
+VIProductVersion "0.5.7.0"
 
 
 
@@ -55,7 +55,7 @@ Page instfiles
 Section
 
 	SetOutPath $INSTDIR
-	File "gamminator.exe"
+	File "build\gamminator.exe"
 	File "gpl.txt"
 	File "readme.txt"
 	File "color.ico"

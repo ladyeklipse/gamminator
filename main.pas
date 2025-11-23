@@ -17,7 +17,7 @@ uses
   IniFiles, SHFolder, setup, about;
 
 const
-  FormTitle = 'Gamminator 0.5.6';
+  FormTitle = 'Gamminator 0.5.7';
   WM_TASKBAREVENT = WM_USER + 1;
 
 type
@@ -287,7 +287,7 @@ end;
 
 procedure UsageMeldung;
 begin
-  //MessageDlg('Verwendung von '+FormTitle+':'+#13#10#13#10+'Parameter:'+#13#10#13#10+'Bei Angabe einer Dezimalzahl als Parameter wird das Programm gestartet, der entsprechende Gammawert gesetzt, und das Programm sofort wieder beendet.'+#13#10#13#10+'"Gamminator 1.2" : setzt den Gammawert auf 1.2.'+#13#10+'"Gamminator ?" : zeigt diesen Hilfetext an.'+#13#10+'"Gamminator" : startet Gamminator mit der Oberfläche'+#13#10#13#10+'HotKeys:'+#13#10#13#10+'Während '+FormTitle+' läuft, kann per Hotkey der Gamma-Wert geändert werden, auch wenn ein anderes Programm aktiv ist.'+#13#10+'Die Hotkeys sind im Options-Fenster einfach einzustellen, und werden in der Datei "gamminator.ini" gespeichert.',mtInformation,[mbOk],0);
+  //MessageDlg('Verwendung von '+FormTitle+':'+#13#10#13#10+'Parameter:'+#13#10#13#10+'Bei Angabe einer Dezimalzahl als Parameter wird das Programm gestartet, der entsprechende Gammawert gesetzt, und das Programm sofort wieder beendet.'+#13#10#13#10+'"Gamminator 1.2" : setzt den Gammawert auf 1.2.'+#13#10+'"Gamminator ?" : zeigt diesen Hilfetext an.'+#13#10+'"Gamminator" : startet Gamminator mit der Oberfl che'+#13#10#13#10+'HotKeys:'+#13#10#13#10+'W hrend '+FormTitle+' l uft, kann per Hotkey der Gamma-Wert ge ndert werden, auch wenn ein anderes Programm aktiv ist.'+#13#10+'Die Hotkeys sind im Options-Fenster einfach einzustellen, und werden in der Datei "gamminator.ini" gespeichert.',mtInformation,[mbOk],0);
   MessageDlg('Usage of '+FormTitle+':'+#13#10#13#10+'Parameters:'+#13#10#13#10+'By passing a decimal number as a parameter to gamminator, the corresponding gamma value will be set and gamminator will be closed.'+#13#10#13#10+'"Gamminator 1.2" : sets the gamma value to 1.2.'+#13#10+'"Gamminator ?" : shows this help text.'+#13#10+'"Gamminator" : launches gamminator with the GUI.'+#13#10#13#10+'HotKeys:'+#13#10#13#10+'While Gamminator is running, the gamma value can be modified by global hotkeys, even in DirectX oder OpenGL Applications.'+#13#10+'To change the hotkeys, enter the setup window. The hotkeys will be saved in a file called "gamminator.ini" in your home directory.',mtInformation,[mbOk],0);
 end;
 

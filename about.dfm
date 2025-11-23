@@ -56,7 +56,7 @@ object AboutForm: TAboutForm
     Top = 8
     Width = 101
     Height = 13
-    Caption = 'Gamminator 0.5.6'
+    Caption = 'Gamminator 0.5.7'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -11
