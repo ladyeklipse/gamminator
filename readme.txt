@@ -1,3 +1,11 @@
+Gamminator 0.5.7.0
+
+modded by Lady Eklipse
+
+I've made a simple modification to the program that allows it to control 2 monitors at the same time instead of just throwing a "division by zero" error on dual monitor setups.
+Original Readme below.
+
+----------------------------------------
 Gamminator 0.5.6.0 Readme File
 
 by Wolfgang Freiler
